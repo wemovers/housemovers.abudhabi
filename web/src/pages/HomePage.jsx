@@ -5,6 +5,7 @@ import ContactUs from '../components/GetQuote'
 import FAQs from '../components/Faqs'
 import SafePackingMoving from '../components/SafePackingMoving'
 import TrustBrandConnection from '../components/TrustBrandConnection'
+import  OurOfficeMovingService from '../components/OurOfficeMovingServices'
 const HomePage = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const HomePage = () => {
       <FAQs/>
       <ContactUs/>
       <Blog/>
+      <OurOfficeMovingService/>
     </div>
   )
 }

@@ -33,7 +33,7 @@ const Blog = () => {
   ];
 
   // 🎨 Updated Theme Colors (Footer Theme Applied)
-  const bgColor = "#CD2C58";
+  const bgColor = "#FFC69D";
   const accentColor = "#E06B80";
   const secondaryColor = "#FFC69D";
   const textColor = "#ffffff";
