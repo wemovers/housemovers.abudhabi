@@ -2,12 +2,12 @@ import React from "react";
 import { FaHandshake, FaUsers, FaShieldAlt, FaGlobe } from "react-icons/fa";
 
 const TrustBrandConnection = () => {
-  const bgColor = '#1A3C27';        // 🌿 Deep Forest Green
-  const accentColor = '#27AE60';    // 💚 Vibrant Green
-  const secondaryColor = '#2ECC71'; // 🟢 Fresh Green (hover)
-  const contrastColor = '#F39C12';  // 🟠 Contrast Orange
-  const textColor = '#ECF0F1';      // ⚪ Light Gray
-  const borderColor = '#2D5E3F';    // 📗 Medium Green Border
+  const bgColor = '#FFC69D';        // 🌿 Deep Forest Green
+  const accentColor = '#FFC69D';    // 💚 Vibrant Green
+  const secondaryColor = '#E06B80'; // 🟢 Fresh Green (hover)
+  const contrastColor = '#E06B80';  // 🟠 Contrast Orange
+  const textColor = '#000000ff';      // ⚪ Light Gray
+  const borderColor = '#E06B80';    // 📗 Medium Green Border
 
   const trustData = [
     {
@@ -77,7 +77,7 @@ const TrustBrandConnection = () => {
             <div
               key={index}
               style={{
-                backgroundColor: "#1E4A33",
+                backgroundColor: "#E06B80",
                 border: `1px solid ${borderColor}`,
                 borderRadius: "16px",
                 padding: "40px 25px",
@@ -100,6 +100,7 @@ const TrustBrandConnection = () => {
                   fontSize: "1.4rem",
                   fontWeight: "600",
                   marginBottom: "15px",
+                  color:"white"
                 }}
               >
                 {item.title}
