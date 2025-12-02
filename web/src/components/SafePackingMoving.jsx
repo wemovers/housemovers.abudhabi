@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 
 
 const SafePackingMoving = () => {
-  const bgColor = "#1A3C27";        // 🌿 Deep Forest Green
-  const accentColor = "#27AE60";    // 💚 Vibrant Green
-  const secondaryColor = "#2ECC71"; // 🟢 Fresh Green (hover)
-  const contrastColor = "#F39C12";  // 🟠 Contrast Orange
-  const textColor = "#ECF0F1";      // ⚪ Light Gray
-  const borderColor = "#2D5E3F";    // 📗 Medium Green Border
+  const bgColor = "#ffffffff";        // 🌿 Deep Forest Green
+  const accentColor = "#CD2C58";    // 💚 Vibrant Green
+  const secondaryColor = "#E06B80"; // 🟢 Fresh Green (hover)
+  const contrastColor = "#E06B80";  // 🟠 Contrast Orange
+  const textColor = "#000000ff";      // ⚪ Light Gray
+  const borderColor = "#CD2C58";    // 📗 Medium Green Border
 
   return (
     <section
@@ -43,11 +43,10 @@ const SafePackingMoving = () => {
             width: "90%",
             borderRadius: "16px",
             border: `3px solid ${borderColor}`,
-            boxShadow: `0 0 25px rgba(39, 174, 96, 0.4)`,
-            transition: "transform 0.4s ease",
+            boxShadow: `0 0 25px rgba(226, 183, 217, 0.4)`,
+            
           }}
-          onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.05)")}
-          onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
+         
         />
         <img
           src={safeImg2}
@@ -60,10 +59,9 @@ const SafePackingMoving = () => {
             borderRadius: "12px",
             border: `2px solid ${contrastColor}`,
             boxShadow: `0 0 20px rgba(243, 156, 18, 0.5)`,
-            transition: "transform 0.4s ease",
+            
           }}
-          onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.05)")}
-          onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
+          
         />
       </div>
 
@@ -117,19 +115,19 @@ const SafePackingMoving = () => {
         color: bgColor,
         padding: "14px 36px",
         border: "none",
-        borderRadius: "10px",
+        borderRadius: "50px",
         fontSize: "1.1rem",
         fontWeight: "600",
         cursor: "pointer",
-        transition: "background-color 0.3s ease, transform 0.3s ease",
+       
       }}
       onMouseEnter={(e) => {
         e.currentTarget.style.backgroundColor = secondaryColor;
-        e.currentTarget.style.transform = "translateY(-3px)";
+    
       }}
       onMouseLeave={(e) => {
         e.currentTarget.style.backgroundColor = contrastColor;
-        e.currentTarget.style.transform = "translateY(0)";
+      
       }}
     >
       Learn More

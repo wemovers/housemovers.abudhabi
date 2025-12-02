@@ -2,16 +2,16 @@ import React, { useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 const FAQs = () => {
-  const bgColor = "#1A3C27";        // 🌿 Deep Forest Green
-  const accentColor = "#27AE60";    // 💚 Vibrant Green
-  const secondaryColor = "#2ECC71"; // 🟢 Fresh Green (hover)
-  const contrastColor = "#F39C12";  // 🟠 Contrast Orange
-  const textColor = "#ECF0F1";      // ⚪ Light Gray
-  const borderColor = "#2D5E3F";    // 📗 Medium Green Border
+  const bgColor = "#ffff";        // 🌿 Deep Forest Green
+  const accentColor = "#CD2C58";    // 💚 Vibrant Green
+  const secondaryColor = "#E06B80"; // 🟢 Fresh Green (hover)
+  const contrastColor = "#FFC69D";  // 🟠 Contrast Orange
+  const textColor = "#000000ff";      // ⚪ Light Gray
+  const borderColor = "#FFC69D";    // 📗 Medium Green Border
 
   const faqs = [
     {
-      question: "Are my goods insured during transfer?",
+      question: "Are my   goods insured during transfer?",
       answer:
         "Absolutely. Wemovers provides basic insurance coverage for all activities. For security, we also offer more insurance options depending on your needs.",
     },
@@ -107,7 +107,7 @@ const FAQs = () => {
                 alignItems: "center",
                 justifyContent: "space-between",
                 backgroundColor:
-                  openIndex === index ? accentColor : "#1F4B32",
+                  openIndex === index ? accentColor : "#FFC69D",
                 color: openIndex === index ? bgColor : textColor,
                 transition: "background-color 0.3s ease",
               }}
@@ -131,7 +131,7 @@ const FAQs = () => {
             {openIndex === index && (
               <div
                 style={{
-                  backgroundColor: "#204F35",
+                  backgroundColor: "#FFC69D",
                   padding: "18px 25px",
                   borderTop: `1px solid ${borderColor}`,
                   color: textColor,
