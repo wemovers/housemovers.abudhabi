@@ -1,5 +1,6 @@
 import React from 'react'
 import Hero from '../components/Hero'
+import Blog from '../components/Blog'
 import ContactUs from '../components/GetQuote'
 
 const HomePage = () => {
@@ -7,6 +8,7 @@ const HomePage = () => {
     <div>
       <Hero/>
       <ContactUs/>
+      <Blog/>
     </div>
   )
 }
