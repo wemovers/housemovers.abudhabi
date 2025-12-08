@@ -75,9 +75,9 @@ const Hero = () => {
               textShadow: "0 2px 4px rgba(0,0,0,0.15)",
             }}
           >
-            Making Your Move <br />
-            <span style={{ color: "#CD2C58" }}>Simple, Fast,</span>  
-            <br />
+           Stress-Free​‍​‌‍​‍‌​‍​‌‍​‍‌ Moving Starts Here
+            <span style={{ color: "#CD2C58" }}> Simple, Fast,</span>  
+         
             & Stress-Free
           </h1>
 
@@ -91,8 +91,8 @@ const Hero = () => {
               textAlign:"justify"
             }}
           >
-            WeMovers ensures smooth relocation with professional packing, secure handling,
-            and on-time delivery — trusted by thousands across UAE.
+           Moving​‍​‌‍​‍‌​‍​‌‍​‍‌ can be hard and overwhelming, and it often comes with a lot of stress and logistical problems. We at House Movers Abu Dhabi are firm believers in the idea that moving should be an exciting new chapter in your life, rather than something that makes you anxious. Hence, our entire modus operandi is geared towards making your home shifting services experience a breeze, devoid of any stress, and absolutely safe. We are the one-stop solution for relocating your home, as we take care of every detail - starting from professionally and impeccably packing even your most valuable and beloved items, to a faultless journey, and then carefully unpacking at your new Abu Dhabi residence. Our aim is to take over the intricacies and the heavy work completely, thus ensuring that the move will be smooth and you will be able to concentrate only on settling into your new life ​‍​‌‍​‍‌​‍​‌‍​‍‌calmly.
+
           </p>
 
           {/* CTA BUTTONS */}
@@ -113,7 +113,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="/#our-services"
+              href="/#about"
               style={{
                 backgroundColor: "#ffffff",
                 padding: "14px 32px",

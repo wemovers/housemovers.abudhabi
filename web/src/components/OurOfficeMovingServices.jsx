@@ -11,6 +11,7 @@ const OurOfficeMovingService = () => {
         display: "flex",
         justifyContent: "center",
       }}
+      id="about"
     >
       <div
         style={{

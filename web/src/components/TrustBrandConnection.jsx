@@ -39,6 +39,7 @@ const TrustBrandConnection = () => {
         color: textColor,
         padding: "80px 20px",
       }}
+      id="trust"
     >
       <div className="max-w-7xl mx-auto text-center" id="trust-brand-connection">
         {/* 🌟 Section Header */}

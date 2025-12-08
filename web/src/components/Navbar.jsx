@@ -74,9 +74,9 @@ const Navbar = () => {
           >
             {[
               { to: "/", label: "Home" },
-              { to: "/#about", label: "About" },
-              { to: "/#our-services", label: "Services" },
-              { to: "/#mission", label: "Mission" },
+              { to: "/#safe-packing-and-moving", label: "About" },
+              { to: "/#about", label: "Services" },
+              { to: "/#trust", label: "Why Us" },
               { to: "/#faqs", label: "Faqs" },
               { to: "/#contact", label: "Contact" },
               { to: "/blog", label: "Blog" },
