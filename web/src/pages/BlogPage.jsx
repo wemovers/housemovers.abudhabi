@@ -9,13 +9,13 @@ const BlogPage = () => {
   const blogPosts = [
     {
       id: 1,
-      title: 'Guidance on How to Hire Affordable International Movers in Dubai?',
-      description: 'To lease cheap international movers in Dubai, plan many months, get prices from multiple businesses by means of comparing their offerings and costs, and study destination customs regulations to ensure a smooth process.....',
-      metaTitle:'Best Tips: Hire Top Affordable Movers in Dubai',
-      metaDescription:'Find affordable international movers in Dubai. Get guidance on hiring reliable, cost-effective relocation services for your global move.',
+      title: 'Professional House Movers in Abu Dhabi for Safe Home Relocation',
+      description: 'Relocating​‍​‌‍​‍‌​‍​‌‍​‍‌ to a new place is a life-changing event, but the act of packing, moving, and sorting can turn up to be a stressful experience if you dont have the right kind of help......',
+      metaTitle:'​‍​‌‍​‍‌​‍​‌‍​‍‌Home Relocation with Professional House Movers in Abu Dhabi',
+      metaDescription:'free home move, get the services of professional house movers in Abu Dhabi. Our expertise lies in the provision of house shifting services,',
       thumbnail: img,
       date: 'October 2 2025',
-      url: '/blog/affordable-international-movers-in-dubai'
+      url: '/blog/professional-house-movers-in-abu-dhabi'
     },
      {
       id: 2,
