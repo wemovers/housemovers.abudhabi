@@ -127,6 +127,7 @@ const FAQs = () => {
                   color: textColor,
                   fontSize: "1rem",
                   lineHeight: "1.7",
+                  textAlign:"justify"
                 }}
               >
                 {faq.answer}

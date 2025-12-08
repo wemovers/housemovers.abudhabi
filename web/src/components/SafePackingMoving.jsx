@@ -79,9 +79,10 @@ const SafePackingMoving = () => {
             fontSize: "2.3rem",
             marginBottom: "20px",
             fontWeight: "bold",
+            textAlign:"left"
           }}
         >
-         Moving House Movers Experts in Abu Dhabi
+        House Movers in Abu Dhabi
         </h2>
         <p
           style={{

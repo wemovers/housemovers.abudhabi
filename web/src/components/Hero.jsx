@@ -73,6 +73,7 @@ const Hero = () => {
               lineHeight: "1.2",
               marginBottom: "20px",
               textShadow: "0 2px 4px rgba(0,0,0,0.15)",
+              textAlign:"justify"
             }}
           >
            Stress-Free​‍​‌‍​‍‌​‍​‌‍​‍‌ Moving Starts Here

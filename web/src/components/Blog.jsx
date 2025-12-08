@@ -11,7 +11,7 @@ const Blog = () => {
       imgSrc: img1,
       category: "Moving Company",
       title: "Professional House Movers in Abu Dhabi for Safe Home Relocation",
-      desc: "Relocating​‍​‌‍​‍‌​‍​‌‍​‍‌ to a new place is a life-changing event, but the act of packing, moving, and sorting can turn up to be a stressful experience if you dont have the right kind of help......",
+      desc: "Relocating​‍​‌‍​‍‌​‍​‌‍​‍‌ to a new place is a life-changing event, but the act of packing, moving, and sorting can turn up to be a stressful experience if you dont have the right kind of help...........",
       link: "/blog/professional-house-movers-in-abu-dhabi",
     },
     {
@@ -100,6 +100,7 @@ const Blog = () => {
     color: accentColor,
     marginBottom: "12px",
     lineHeight: "1.4",
+     textAlign:"justify",
   };
 
   const descStyle = {
