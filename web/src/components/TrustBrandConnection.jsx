@@ -1,5 +1,10 @@
 import React from "react";
-import { FaHandshake, FaUsers, FaShieldAlt, FaGlobe } from "react-icons/fa";
+import { 
+  FaUserSecret, 
+  FaCheckCircle, 
+  FaIdBadge, 
+  FaBusinessTime 
+} from "react-icons/fa";
 
 const TrustBrandConnection = () => {
   const bgColor = '#FFC69D';        // 🌿 Deep Forest Green
@@ -11,24 +16,24 @@ const TrustBrandConnection = () => {
 
   const trustData = [
     {
-      icon: <FaHandshake size={40} />,
-      title: "On-time delivery",
-      desc: "We value your time and business plan. Our employees stick to a strict timeline to ensure that each office migration is completed immediately and with as little disadvantage for your business as possible",
+      icon: <FaUserSecret size={40} />,
+      title: "Discreet Handling",
+      desc: "When we handle sensitive documents, high-value assets, and confidential equipment, we keep very strict privacy and professionalism.",
     },
     {
-      icon: <FaUsers size={40} />,
-      title: "Quality",
-      desc: "High-quality packaging with careful handling ",
+      icon: <FaCheckCircle  size={40} />,
+      title: "Consistent Quality",
+      desc: "We are at the same high standard when moving a luxury villa or a major corporate office. ",
     },
     {
-      icon: <FaShieldAlt size={40} />,
-      title: "Commercial warranty",
-      desc: "Professional service guaranteed every step of the road ",
+      icon: <FaIdBadge  size={40} />,
+      title: "Licensed & Insured",
+      desc: "We have comprehensive insurance coverage and all the necessary permits from Abu Dhabi to operate; thus, we offer complete financial security and peace of mind to our clients. ",
     },
     {
-      icon: <FaGlobe size={40} />,
-      title: "UAE broad service",
-      desc: "Offer service to all Emirates of equal quality",
+      icon: <FaBusinessTime  size={40} />,
+      title: "Minimal Disruption",
+      desc: "We, the commercial clients, hire executing moves swiftly and efficiently. Most of the time, it is done outside of business hours; thus, there is no impact on the operations. ",
     },
   ];
 
@@ -50,7 +55,7 @@ const TrustBrandConnection = () => {
             marginBottom: "20px",
           }}
         >
-          Why Brands Trust Us
+          Why Brands Trust Us in Abu Dhabi
         </h2>
         <p
           style={{
@@ -62,7 +67,7 @@ const TrustBrandConnection = () => {
             textAlign:"justify",
           }}
         >
-          Leading brands have come to trust WeMovers because of our dedication to accuracy, dependability, and client satisfaction. Each step is carefully performed to guarantee topicality and safety. We are the preferred choice for all Abu Dhabi companies because of our skilled workforce, top modern machines, and open process.
+          Brands trust us because we know that corporate and high-value moves are not just about lifting boxes. They need detailed planning and execution that reduces the time that the business is disrupted and keeps confidentiality very strict. 
         </p>
 
         {/* 💚 Trust Cards */}
