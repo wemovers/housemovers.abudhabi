@@ -11,7 +11,6 @@ const HomePage = () => {
     <div>
       <Hero/>
       <SafePackingMoving/>
-      
       <TrustBrandConnection/>
       <FAQs/>
       <ContactUs/>
