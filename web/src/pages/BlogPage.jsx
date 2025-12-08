@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet';
 import '../assets/css/BlogPage.css'
 import img from '../assets/img/r1.jpg';
-import img2 from '../assets/img/r2.jpg';
+import img2 from '../assets/img/Reliable.jpg';
 import { Link } from 'react-router-dom';
 
 const BlogPage = () => {
@@ -9,23 +9,23 @@ const BlogPage = () => {
   const blogPosts = [
     {
       id: 1,
-      title: 'Guidance on How to Hire Affordable International Movers in Dubai?',
-      description: 'To lease cheap international movers in Dubai, plan many months, get prices from multiple businesses by means of comparing their offerings and costs, and study destination customs regulations to ensure a smooth process.....',
-      metaTitle:'Best Tips: Hire Top Affordable Movers in Dubai',
-      metaDescription:'Find affordable international movers in Dubai. Get guidance on hiring reliable, cost-effective relocation services for your global move.',
+      title: 'Professional House Movers in Abu Dhabi for Safe Home Relocation',
+      description: 'Relocating​‍​‌‍​‍‌​‍​‌‍​‍‌ to a new place is a life-changing event, but the act of packing, moving, and sorting can turn up to be a stressful experience if you dont have the right kind of help......',
+      metaTitle:'​‍​‌‍​‍‌​‍​‌‍​‍‌Home Relocation with Professional House Movers in Abu Dhabi',
+      metaDescription:'free home move, get the services of professional house movers in Abu Dhabi. Our expertise lies in the provision of house shifting services,',
       thumbnail: img,
-      date: 'October 2 2025',
-      url: '/blog/affordable-international-movers-in-dubai'
+      date: 'December 08, 2025',
+      url: '/blog/professional-house-movers-in-abu-dhabi'
     },
      {
       id: 2,
-      title: 'Best and Cheap International Movers in Dubai, UAE',
-      description: 'Discover top-rated, affordable international movers in Dubai. Get expert guidance on reliable, cheap relocation services for a stress-free move.....',
-      metaTitle:'Top-Rated Best & Cheap International Movers in Dubai',
-      metaDescription:'Discover top-rated, affordable international movers in Dubai. Get expert guidance on reliable, cheap relocation services for a stress-free move.',
+      title: 'Fast & Reliable House Movers for Apartment and Villa Relocation with movers in Abu Dhabi',
+      description: 'Our services include home shifting, furniture moving in Abu Dhabi, villa movers and packers in Dubai, moving and storage.....',
+      metaTitle:'Fast & Reliable House Movers in Abu Dhabi | Apartment',
+      metaDescription:'Our services include home shifting, furniture moving in Abu Dhabi, villa movers and packers in Dubai, moving and storage, and local household relocation solutions',
       thumbnail: img2,
-      date: 'October 2, 2025',
-      url: '/blog/best-and-cheap-international-movers-in-dubai-uae'
+      date: 'December 08, 2025',
+      url: '/blog/fast-reliable-house-movers-for-apartment-and-villa-relocation-with-movers-in-abu-dhabi'
     },
   ];
   const titles = blogPosts.map(post => post.metaTitle).join(' | ');

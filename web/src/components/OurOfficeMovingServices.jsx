@@ -45,20 +45,19 @@ const OurOfficeMovingService = () => {
               lineHeight: "1.8",
               marginBottom: "20px",
               fontWeight: "500",
+              textAlign:"justify",
             }}
           >
-            Our office relocation service ensures a smooth, organized and
-            efficient move with minimal downtime. We handle everything professionally —
-            from packing delicate equipment to transporting office furniture safely.
+           Relocating​‍​‌‍​‍‌​‍​‌‍​‍‌ a business or an office is a pretty complex job that definitely calls for a fast, safe, and precise way of working. Here at House Movers. Abu Dhabi, we totally get the vital need to keep the downtime of operations as short as possible. That's the reason we have a specially equipped commercial moving service, and it is also our specialists who are experienced in corporate logistics and are very careful with security regulations, that powers it. Actually, it is our first goal to have your business working like clockwork and offering its services in the new place as soon as possible. In fact, we are also very careful with the disassembly and reassembly of sensitive IT infrastructure and household shifting servers so that no one sees the transfer of confidential documents and files that can only be trusted to ​‍​‌‍​‍‌​‍​‌‍​‍‌us.
           </p>
 
           <ul style={{ marginTop: "20px" }}>
             {[
-              "Expert packing for IT & office equipment",
-              "Safe commercial transport service",
-              "Furniture dismantling & reinstallation",
-              "Fast process to avoid business interruption",
-              "Skilled & trained office relocation staff",
+              "1.​‍​‌‍​‍‌​‍​‌‍​‍‌ Detailed Survey",
+              "2. Customized Moving Plan",
+              "3 . Inventory Management",
+              "4. Relocation of IT Equipment",
+              "5  . Confidential Document Management",
             ].map((item, index) => (
               <li
                 key={index}
