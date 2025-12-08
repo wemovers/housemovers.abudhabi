@@ -10,9 +10,9 @@ const Blog = () => {
       id: 1,
       imgSrc: img1,
       category: "Moving Company",
-      title: "Guidance on How to Hire Affordable International Movers in Dubai?",
-      desc: "To lease cheap international movers in Dubai, plan many months, get prices from multiple businesses by means of comparing their offerings and costs, and study destination customs regulations to ensure a smooth process.....",
-      link: "/blog/affordable-international-movers-in-dubai",
+      title: "Professional House Movers in Abu Dhabi for Safe Home Relocation",
+      desc: "Relocating​‍​‌‍​‍‌​‍​‌‍​‍‌ to a new place is a life-changing event, but the act of packing, moving, and sorting can turn up to be a stressful experience if you dont have the right kind of help......",
+      link: "/blog/professional-house-movers-in-abu-dhabi",
     },
     {
       id: 2,
