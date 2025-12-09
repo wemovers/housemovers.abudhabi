@@ -1,6 +1,8 @@
 import heroImg from "../assets/img/hero.webp"; // change to your hero image
 
 const Hero = () => {
+  const isDesktop = window.innerWidth >= 1024;
+
   return (
     <section
       style={{
@@ -66,21 +68,30 @@ const Hero = () => {
             color: "#ffffff",
           }}
         >
-          <h1
-            style={{
-              fontSize: "clamp(2.3rem, 4vw, 4rem)",
-              fontWeight: "800",
-              lineHeight: "1.2",
-              marginBottom: "20px",
-              textShadow: "0 2px 4px rgba(0,0,0,0.15)",
-              textAlign:"justify"
-            }}
-          >
-           Stress-Free​‍​‌‍​‍‌​‍​‌‍​‍‌ Moving Starts Here
-            <span style={{ color: "#CD2C58" }}> Simple, Fast,</span>  
-         
-            & Stress-Free
-          </h1>
+        <div
+    style={{
+      width: isDesktop ? "80%" : "100%", 
+       marginLeft: isDesktop ? "0px" : "0px",   // ⭐ desktop only
+      margin: "0 auto",                    // center the heading block
+    }}
+  >
+    <h1
+      style={{
+        fontSize: "clamp(2.3rem, 4vw, 2rem)",
+        fontWeight: "800",
+        lineHeight: "1.2",
+        marginBottom: "20px",
+ 
+        textShadow: "0 2px 4px rgba(0,0,0,0.15)",
+        textAlign: "center"
+      }}
+    >
+      Stress-Free Moving Starts Here
+      <span style={{ color: "#CD2C58" }}> Simple and Fast</span>
+    </h1>
+  </div>
+
+
 
           <p
             style={{
