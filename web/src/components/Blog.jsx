@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from "../assets/img/r1.jpg";
 import img2 from "../assets/img/Reliable.jpg";
-import img3 from "../assets/img/r3.jpg";
+import img3 from "../assets/img/i1.png";
 
 const Blog = () => {
 
@@ -26,9 +26,9 @@ const Blog = () => {
       id: 3,
       imgSrc: img3,
       category: "Moving Company",
-      title: "What Is Global Relocation in Abu Dhabi and Why UAE Companies Need It",
-      desc: "Global transfer occurs when a company moves its employees, a whole area, or a department to a separate place.",
-      link: "https://www.wemovers.ae/blog/what-is-global-relocation-in-abu-dhabi-and-why-uae-companies-need-it",
+      title: "Professional Movers in UAE for Easy Relocation",
+      desc: "Professional movers in UAE for smooth home, office, and villa relocations with packing, furniturehandling, transport, and storage support.",
+      link: "https://www.wemovers.ae/blog/professional-movers-in-uae-easy-relocation",
     },
   ];
 
